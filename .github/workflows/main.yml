@@ -16,7 +16,7 @@ jobs:
       
       - name: Trigger SecureAudit Scan
         run: |
-          curl -X POST https://773a393f4b30.ngrok-free.app/api/ci/webhook \
+          curl -X POST https://34dc7bd0b31d.ngrok-free.app/api/ci/webhook \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.AUDIT_TOKEN }}" \
             -d '{
